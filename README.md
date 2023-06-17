@@ -23,8 +23,9 @@ You can also try streamlit demo on huggingface: https://huggingface.co/spaces/cl
 
 ## How to run elasticsearch on your machine with docker:
 
+```
 docker run -d --name elasticsearch_ir -p 9200:9200 -p 9300:9300 -e "ES_JAVA_OPTS=-Xms512m -Xmx512m" -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch-oss:7.9.2
-
+```
 
 Useful links:
 - https://www.sbert.net/
