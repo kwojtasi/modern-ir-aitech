@@ -1,0 +1,5 @@
+sentence-transformers==2.2.2
+beir==1.0.1
+datasets
+streamlit
+rank_bm25
